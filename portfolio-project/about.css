@@ -65,7 +65,7 @@ span p{
 .third-p-2{
     justify-content: center;
     display: flex;
-    gap: 4rem;
+    /* gap: 4rem; */
     margin-left: -0.9cm;
     margin-top: 30px;
 }
