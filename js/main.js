@@ -63,7 +63,7 @@ const sendEmail = (email) => {
     contactMessage.classList.remove("color-blue");
     contactMessage.classList.add("color-red");
 
-    contactMessage.textContent = "Wite all the input fields 📩";
+    contactMessage.textContent = "Write all the input fields 📩";
   } else {
     emailjs.sendForm(
       "service_q9e1tjc",
