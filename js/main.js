@@ -50,6 +50,10 @@ let swiperTestimonial = new Swiper(".testimonial-container", {
   },
 });
 
+function openInNewTab(url) {
+  window.open(url, "_blank");
+}
+
 const contactForm = document.getElementById("contact-form"),
   contactName = document.getElementById("contact-name"),
   contactEmail = document.getElementById("contact-email"),

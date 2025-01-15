@@ -597,9 +597,10 @@ body.dark-theme {
 }
 
 .projects-title {
-    font-size: var(--h2-font-size);
+    font-size: var(--h3-font-size);
     margin-bottom: 1.25rem;
     margin: .5rem 0 1.25rem;
+    text-transform: uppercase;
 }
 
 .projects-button {
@@ -727,6 +728,21 @@ body.dark-theme {
     color: var(--text-color-light);
 }
 
+.plus-icon{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 0 !important;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plus-icon i{
+    font-size: 50px;
+    color: #fff;
+}
 .contact-container {
     row-gap: 3.5rem;
 }
